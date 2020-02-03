@@ -99,6 +99,8 @@ q:after {
 
 /* Footer */
 footer {
+    display: flex;
+    flex-direction: row; 
     border-top: 1px gray solid;  
     width: 100%;
     margin-top: 2rem;
@@ -106,10 +108,14 @@ footer {
 
 }
 
-footer .author img {
+footer .author span {
+    vertical-align: middle; 
+    line-height: 2rem;
+}
+
+footer img {
     width: 50px; 
     border-radius: 100%; 
-
 }
 
 
