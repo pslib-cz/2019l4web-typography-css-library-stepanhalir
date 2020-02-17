@@ -4,7 +4,6 @@ Typography is a CSS library for styling your websites.
 ## Usage
 Insert this section into the header of your site.
 ```
-html
 <link rel="stylesheet" href="typography.css" />
 ```
 ## Application
