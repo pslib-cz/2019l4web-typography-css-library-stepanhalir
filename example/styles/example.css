@@ -1,0 +1,51 @@
+/* 
+Typography example 
+*/
+
+main { 
+    margin: 0 auto;
+    width: 40vw;
+}
+
+/* paragraph */ 
+p {
+    color: rgb(56, 56, 56);
+}
+
+/* List */
+ul li::before {
+    background: #00a8cc;
+} 
+
+ol > li::before {
+    color: #00a8cc;
+} 
+
+/* Figure */ 
+figure { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    width: inherit; 
+}
+
+figure figcaption {
+    color: rgb(56, 56, 56); 
+}
+
+/* anchor, link */
+a {
+    color: #00a8cc; 
+}
+
+/* Aside */
+aside {
+    background-color: #f8f8f8; 
+}
+
+/* Footer */
+footer {
+    border-top: 1px gray solid;  
+}
+
+

@@ -1,3 +1,11 @@
+/* 
+
+Typography 
+Attach this library to your HTML file and leave your worries about page styling. 
+The library uses clean and simple design and typography. 
+
+*/
+
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap'); 
 
@@ -10,11 +18,10 @@
 }
 
 main {
-    margin: 0 auto;
+    margin: 0;
     line-height: 1.5;
     background: white; 
     word-wrap: break-word;
-    width: 40vw;
 }
 
 /* Heading */
@@ -37,7 +44,6 @@ h2 {
 /* paragraph */
 p {
     margin: 1.5rem 0rem;
-    color: rgb(56, 56, 56);
 }
 
 p.bold {
@@ -61,7 +67,6 @@ ul li::before {
     content: "";
     width: 5px; 
     height: 5px; 
-    background: #00a8cc;
     left: 1.25rem; 
     margin-top: 10px;
 }
@@ -78,17 +83,12 @@ ol > li {
 ol > li::before {
     content: counter(list) ".";
     display: inline-block;
-    color: #00a8cc;
     margin-right: 1rem;
 }
 
 /* Figure */
-figure { 
-    display: flex; 
+figure {  
     margin: 4rem 0rem;
-    flex-direction: column; 
-    align-items: center; 
-    width: inherit; 
 } 
 
 figure img {
@@ -100,14 +100,12 @@ figure img {
 figure figcaption {
     font-size: 0.9rem; 
     padding: 0.25rem;
-    color: rgb(56, 56, 56); 
     font-family: Arial, Helvetica, sans-serif; 
 } 
 
 /* anchor, link */
 a {
     text-decoration: none;
-    color: #00a8cc; 
 }
 
 a[target="_blank"]:after { 
@@ -124,7 +122,6 @@ a[target="_blank"]:after {
 
 /* Aside */
 aside {
-    background-color: #f8f8f8; 
     padding: 1rem; 
     margin: 2rem 0rem 2rem 0rem; 
 } 
@@ -164,8 +161,7 @@ q:after {
 footer {
     display: flex;
     flex-direction: row; 
-    border-top: 1px gray solid;  
-    width: 100%;
+    width: 100%; 
     margin-top: 2rem;
     padding: 1rem 0rem 0rem 0.5rem; 
 }
@@ -199,7 +195,8 @@ footer img {
 /* Mobile */
 @media only screen and (max-width: 600px) {
     main {
-        width: 90vw; 
+        width: 90vw;
+        line-height: 1.45; 
     }
     ol, ul { 
         padding: 0; 
@@ -209,7 +206,7 @@ footer img {
         margin: 2rem 0; 
     }  
     aside {
-        padding: 0;
+        padding: 0.5rem;
     } 
     ul li {
         text-indent: 1rem;
@@ -219,10 +216,9 @@ footer img {
         content: "";
         width: 5px; 
         height: 5px; 
-        background: #00a8cc;
         left: 0rem; 
         margin-top: 10px;
-    }
+    } 
 }
 
 @media (max-width: 768px) {
@@ -234,7 +230,6 @@ footer img {
         content: "";
         width: 5px; 
         height: 5px; 
-        background: #00a8cc;
         left: 0rem; 
         margin-top: 10px;
     }
