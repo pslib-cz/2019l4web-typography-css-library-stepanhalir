@@ -1,5 +1,5 @@
 # Typography
-Typography is a CSS library for styling your websites. 
+Typography is a CSS library for styling your websites. The library uses clean and simple design and typography.
 
 ## Usage
 Insert this section into the header of your site.
@@ -9,6 +9,7 @@ html
 ```
 ## Application
 Attach this library to your HTML file and leave your worries about page styling. 
-The library uses clean and simple design and typography. For an **example** of a web page where the library is used, see example.
+The library uses clean and simple design and typography. For an **example** of a web page where the library is used, see folder "example".
 
+![Explample page view](http://www.img.tpx.cz/uploads/example%20-%20photo.png)
 
