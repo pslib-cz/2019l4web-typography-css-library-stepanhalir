@@ -48,4 +48,10 @@ footer {
     border-top: 1px gray solid;  
 }
 
+@media print { 
+    main { 
+    margin: 0;
+    width: 100%;
+    }
+}
 
